@@ -12,6 +12,6 @@ def passing_cars(A):
             return -1
     return pairs
 
-print(passing_cars(random.choices([0, 1], k=10)))
+print(passing_cars(random.choices([0, 1], k=10000)))
 
 print(passing_cars([0, 1, 0, 1, 1]))
